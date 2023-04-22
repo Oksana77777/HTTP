@@ -10,11 +10,11 @@ public class CatFacts {
     private int upvotes;
 
     public CatFacts(
-           @JsonProperty("id") String id,
-           @JsonProperty("text") String text,
-           @JsonProperty("type") String type,
-           @JsonProperty("user") String user,
-           @JsonProperty("upvotes") int upvotes) {
+            @JsonProperty("id") String id,
+            @JsonProperty("text") String text,
+            @JsonProperty("type") String type,
+            @JsonProperty("user") String user,
+            @JsonProperty("upvotes") int upvotes) {
         this.id = id;
         this.text = text;
         this.type = type;
